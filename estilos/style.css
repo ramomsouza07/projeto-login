@@ -3,8 +3,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 :root{
@@ -13,4 +14,43 @@
     --cor3:#038C4C;
     --cor4:#02733E;
     --cor5:#B7D996;
+}
+
+html, body{
+    background-color: #014029;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    background-color: #038C4C;
+    width: 250px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+section#login > div#imagem{
+    display: block;
+    background: #014029 url(../imagens/pattern.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div#forms{
+    padding: 10px;
+    display: block;
 }
