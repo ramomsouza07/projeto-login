@@ -17,7 +17,7 @@
 }
 
 html, body{
-    background-color: #014029;
+    background-color: #014129;
     height: 100vh;
     width: 100vw;
 }
@@ -40,6 +40,9 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
