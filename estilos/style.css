@@ -38,9 +38,9 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
 
+    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
@@ -64,5 +64,59 @@ div#forms > h1{
 }
 
 div#forms > p{
-    font-size: 1.3em;
+    font-size: .8em;
+}
+
+form > div.campo{
+    width: 100%;
+    height: 40px;
+    display: block;
+    background-color: #014029;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label{
+    display: none;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    background-color: #B7D996;
+    color: #01261C;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: #01261C;
+    color: #B7D996;
+}
+
+form > a.button{
+    margin-top: 4px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #B7D996;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    padding-top: 4px;
+    background-color: #014029;
+    border: 1px solid #B7D996;
+    border-radius: 8px;
+}
+
+form > a.button:hover{
+    background-color: #B7D996;
+    color: #01261C;
+}
+
+form > a.button > span{
+    font-size: .8em;
 }
