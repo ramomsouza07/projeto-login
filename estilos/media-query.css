@@ -11,7 +11,7 @@ Grandes telas: (min-width: 1200px);
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
-    body{
+    body{ /*Configs para Tablet*/
         background-image: linear-gradient(to bottom, #038C4C, #014029);
     }
     
@@ -33,7 +33,7 @@ Grandes telas: (min-width: 1200px);
 }
 
 @media screen and (min-width:992px){
-    body{
+    body{ /*Configs para Desktops e TV's*/
         background-image: linear-gradient(to bottom, #038C4C, #014029);
     }
     
